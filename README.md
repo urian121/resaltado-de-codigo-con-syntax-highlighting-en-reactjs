@@ -25,7 +25,7 @@ La aplicación muestra un bloque de código con resaltado de sintaxis en el esti
 Sigue estos pasos para clonar y ejecutar el proyecto:
 
 1. **Clona el repositorio:**
-    git clone https://github.com/urian121/resaltado-de-codigo-con-syntax-highlighting
+    git clone https://github.com/urian121/resaltado-de-codigo-con-syntax-highlighting-en-reactjs
 
 2. Navega al directorio del proyecto
     cd tu_repositorio
