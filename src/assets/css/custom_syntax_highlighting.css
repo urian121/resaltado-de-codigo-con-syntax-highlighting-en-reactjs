@@ -1,0 +1,85 @@
+
+.code-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #282a36;
+  }
+  
+  /* Cabecera del contenedor de código */
+  .code-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #44475a;
+    border-bottom: 1px solid #444;
+    border-radius: 8px 8px 0 0;
+    color: #f8f8f2;
+    position: relative; /* Para posicionar el elemento carbon correctamente */
+  }
+  
+  /* Botón de copiar */
+  .copy-button {
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    background-color: #6272a4;
+    color: #f8f8f2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .copy-button:hover {
+    background-color: #575d74;
+  }
+  
+  .copy-button svg {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* Estilos para el contenedor de indicadores de color */
+  .carbon {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Espacio entre los elementos */
+  }
+  
+  /* Estilos para los círculos de colores */
+  .red, .yellow, .green {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
+  .red {
+    background-color: #ff5555;
+  }
+  
+  .yellow {
+    background-color: #ffb86c;
+  }
+  
+  .green {
+    background-color: #27c93f;
+  }
+  
+  /* Estilos para el resaltador de sintaxis */
+  .syntax-highlighter-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  /* Opcional: estilizar la fuente del código para mejorar la legibilidad */
+  .code-block {
+    font-size: 14px;
+    line-height: 1.5;
+  }
