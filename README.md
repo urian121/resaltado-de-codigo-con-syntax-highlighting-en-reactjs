@@ -1,4 +1,4 @@
-# Resaltado de Código con Syntax Highlighting
+# Resaltado de Código con Syntax Highlighting en ReactJS
 
 aplicación simple construida con **Vite y React** que muestra cómo resaltar bloques de código utilizando el paquete `react-syntax-highlighter`. Incluye un botón para copiar el código al portapapeles y un indicador visual de que el código ha sido copiado.
 
